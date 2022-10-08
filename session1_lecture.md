@@ -4,8 +4,3 @@
 # TCP/IP, DNS resolution, http protocol
 
 - https://docs.google.com/presentation/d/17qpdF1Hhlpcjs8beOfvhWToel99j8ztHkIexe_b9b2A/edit?usp=sharing
-
-
-
-
-
