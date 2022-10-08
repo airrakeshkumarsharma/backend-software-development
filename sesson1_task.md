@@ -1,3 +1,8 @@
+## Tools required
+[ ] Postman
+[ ] Nodejs
+[ ] VS code
+
 # Task to be completed
 [ ]  Draw the diagram that if somebody will type google.com in the browser then what happens
 - Diagram should include following blocks
