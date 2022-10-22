@@ -2,6 +2,13 @@
 - [ ] My First Express App : A List of contacts 
 - [ ] MVC
 - [ ] Express
+  - [ ] Middleware
+  - [ ] Http methods GET, POST, PUT
+  - [ ] Query params and Path Params
 - [ ] Creating the contact list
-- [ ] Middleware
-- [ ] Query parameters
+
+# Practice
+## Create Calculator API
+- [ ] Add
+- [ ] Sub
+- [ ] Mul 
