@@ -1,14 +1,12 @@
 # backend-software-development
-- [ ] My First Express App : A List of contacts 
-- [ ] MVC
-- [ ] Express
-  - [ ] Middleware
-  - [ ] Http methods GET, POST, PUT
-  - [ ] Query params and Path Params
-- [ ] Creating the contact list
-
+- [ ] What are databases, SQL and NoSQL databases
+- [ ] What is MongoDB, how to use it and setting up MongoDB for the project
+- [ ] CRUD operations for MongoDB
+- [ ] Create contact list
+  - [ ] MVC 
 # Practice
-## Create Calculator API
-- [ ] Add
-- [ ] Sub
-- [ ] Mul 
+## Create blog post
+- Convert all your operations code into MVC pattern
+  - addition
+  - sub
+  - mul
