@@ -10,6 +10,10 @@ const schema = new mongoose.Schema({
     mobile: {
         type: String,
         require: true
+    },
+    email: {
+        type: String,
+        require: false
     }
 })
 

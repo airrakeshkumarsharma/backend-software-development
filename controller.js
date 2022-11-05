@@ -47,8 +47,36 @@ const getContact = async (request, response) => {
     response.send(dbContactResp)
 }
 
+const deleteContact =  async (request, response) => {
+    const param = request.params
+
+    const dbResponse = await contactModel.deleteOne({name: param.contactName})
+
+    console.log(dbResponse)
+
+    response.send({message: "data Deleted"})
+}
+
+const updateContact = async (request, response) => {
+    // Whose contactName is Contact1 update his mobile
+    // name & new Mobile number
+
+    const param = request.params
+    const body = request.body
+
+    const condition  = { name: param.contactName}
+    const payload = body
+
+
+    const dbResponse = await contactModel.updateOne(condition, payload)
+
+    response.send({message: "data is updated!"})
+}
+
 module.exports = {
     addContact,
     getContacts,
-    getContact
+    getContact,
+    deleteContact,
+    updateContact
 }
